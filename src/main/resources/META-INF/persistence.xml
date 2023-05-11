@@ -3,13 +3,13 @@
         xmlns="https://jakarta.ee/xml/ns/persistence"
         xsi:schemaLocation="https://jakarta.ee/xml/ns/persistence https://jakarta.ee/xml/ns/persistence/persistence_3_0.xsd"
         version="3.0">
-    <persistence-unit name="FormationJPAPU" transaction-type="RESOURCE_LOCAL">
+    <persistence-unit name="OpenFoodFact" transaction-type="RESOURCE_LOCAL">
         <provider>org.hibernate.jpa.HibernatePersistenceProvider</provider>
-        <class>com.aplose.formationjpa.model.Book</class>
+        <class>com.openfoodfact.model.Product</class>
         <properties>
-            <property name="jakarta.persistence.jdbc.url " value="jdbc:mysql://localhost:3306/jpa"/>
-            <property name="jakarta.persistence.jdbc.user" value="jpa"/>
-            <property name="jakarta.persistence.jdbc.password" value="jpa"/>
+            <property name="jakarta.persistence.jdbc.url " value="jdbc:mysql://localhost:3306/food"/>
+            <property name="jakarta.persistence.jdbc.user" value="food"/>
+            <property name="jakarta.persistence.jdbc.password" value="food"/>
             <property name="jakarta.persistence.jdbc.driver" value="com.mysql.cj.jdbc.Driver"/>   
             <property name="hibernate.hbm2ddl.auto" value="create"/>   
         </properties>
