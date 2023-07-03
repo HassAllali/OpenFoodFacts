@@ -22,6 +22,7 @@ import dao.DAOFactory;
 import dao.DAOIngredient;
 import dao.DAOMarque;
 
+
 public class Lire {
 
 	public void parseFile() throws IOException {

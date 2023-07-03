@@ -6,6 +6,7 @@ import jakarta.persistence.GenerationType;
 import jakarta.persistence.Id;
 
 
+
 public enum Nutri {
     A("a", "Très bonne qualité nutritionnelle"),
     B("b", "Bonne qualité nutritionnelle"),

@@ -4,6 +4,7 @@ package dao;
 import com.openfoodfact.test.JPAUtils;
 import jakarta.persistence.EntityManager;
 
+
 public class DAOFactory {
     
     private static DAOFactory INSTANCE = new DAOFactory();

@@ -9,6 +9,7 @@ import jakarta.persistence.EntityManager;
 import jakarta.persistence.NoResultException;
 import jakarta.persistence.TypedQuery;
 
+
 public class DAOAdditif {
 	
 	private EntityManager em = JPAUtils.getInstance().getEntityManager();

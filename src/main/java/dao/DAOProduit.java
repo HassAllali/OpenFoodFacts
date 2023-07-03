@@ -8,6 +8,7 @@ import com.openfoodfact.test.JPAUtils;
 import jakarta.persistence.EntityManager;
 import jakarta.persistence.TypedQuery;
 
+
 public class DAOProduit implements IDAO<Produit> {
 
     private EntityManager em = JPAUtils.getInstance().getEntityManager();
